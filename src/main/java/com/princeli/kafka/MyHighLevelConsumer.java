@@ -15,9 +15,6 @@ import kafka.message.MessageAndMetadata;
   
 /** 
  * offset在zookeeper中记录，以group.id为key 分区和customer的对应关系由Kafka维护 
- *  
- * @author <a href="mailto:leicui001@126.com">崔磊</a> 
- * @date 2015年11月4日 上午11:44:15 
  */  
 public class MyHighLevelConsumer {  
   
