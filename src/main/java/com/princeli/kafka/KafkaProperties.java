@@ -12,4 +12,10 @@ public interface KafkaProperties {
     final static String topic2 = "topic2";
     final static String topic3 = "topic3";
     final static String clientId = "SimpleConsumerDemoClient";
+    
+    
+    final static String BROKER_CONNECT = "127.0.0.1:9092";
+    final static String TOPIC = "topic"; 
+    final static String ZK_CONNECT = "127.0.0.1:2181";
+    
 }
